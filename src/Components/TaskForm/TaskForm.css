@@ -1,4 +1,4 @@
-.task-list__header {
+.row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,8 +12,4 @@
 .add-task__field {
   margin-top: 16px;
   text-align: left;
-}
-.task-list__actions{
-  display: flex;
-  gap: 12px;
 }
