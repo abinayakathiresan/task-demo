@@ -15,5 +15,9 @@
 }
 .task-list__actions{
   display: flex;
+  justify-content: center;
   gap: 12px;
+}
+.task-list__table thead th{
+  font-weight: 700;
 }

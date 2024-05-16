@@ -186,14 +186,14 @@ const ManageTask = () => {
   }
 
   const renderTaskList = () => {
-    return (<TableContainer component={Paper}>
+    return (<TableContainer component={Paper} className="task-list__table">
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell>Task Name</TableCell>
             <TableCell align="left">Priority</TableCell>
             <TableCell align="left">Progress</TableCell>
-            <TableCell align="left">Actions</TableCell>
+            <TableCell align="center">Actions</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -207,7 +207,7 @@ const ManageTask = () => {
               </TableCell>
               <TableCell align="left">{row.priority}</TableCell>
               <TableCell align="left">{row.progress}</TableCell>
-              <TableCell align="left">
+              <TableCell align="center">
                 <div className="task-list__actions">
                 <Button
                 variant="outlined"
