@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.add-task__wrapper {
+  width: 100%;
+  min-width: 300px;
+  padding: 24px;
+}
+.add-task__field {
+  margin-top: 16px;
+  text-align: left;
+}
