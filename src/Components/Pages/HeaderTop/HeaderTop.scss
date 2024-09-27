@@ -1,0 +1,13 @@
+@import "../../../scss/var";
+
+.header__wrapper
+{
+    background-color: $bg-color;
+    padding:20px 0;
+    color: $color;
+    @include font-normal;
+}
+.banner__img
+{
+    width:100%;
+}

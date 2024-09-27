@@ -1,18 +1,15 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Provider } from "react-redux";
-import { store } from "./State/store";
 import { BrowserRouter } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import Layout from "./Components/Templates/Layout/Layout";
+import "./custom.scss";
+import LayoutNew from "./Components/Templates/LayoutNew/LayoutNew";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Provider store = {store}>
-      <div>
-        <Layout/>
-      </div>
-      </Provider>
+      <LayoutNew/>
     </BrowserRouter>
   );
 }

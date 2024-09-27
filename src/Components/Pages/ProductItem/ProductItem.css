@@ -1,0 +1,17 @@
+.productItem__img
+{
+    width:100%;
+}
+.productItem__img:hover
+{
+    transform: scale(1.5) rotate(45deg);
+    transition:  0.3s ease-in-out;
+    
+    overflow: hidden
+}
+.product-item__img-parent
+{
+    width: 120px;
+    overflow: hidden;
+    
+}

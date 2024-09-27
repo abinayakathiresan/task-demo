@@ -7,6 +7,9 @@
   height: 100vh;
 }
 
+.tss{
+  color: red;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

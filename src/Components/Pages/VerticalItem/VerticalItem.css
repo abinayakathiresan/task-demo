@@ -1,0 +1,13 @@
+.productItem__img
+{
+    width:100%;
+}
+.product-item__img-parent
+{
+    width: 120px;
+    
+}
+.verticalItem__wrapper
+{
+    display: flex;
+}
